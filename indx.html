@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper</title>
+
+    <!-- Render All Element Normalay -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+        <!-- Main temblate css File -->
+        <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <div class="name">
+            <h1 class="fill" data-name="Ahmed Drawish">Ahmed Drawish</h1>
+        </div>
+    <div class="container">
+       
+            <!-- start card one  -->
+            <div class="card">
+                <div class="content">
+                <h2>01</h2>
+                <h3>card one</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae sed quam consequatur saepe inventore quaerat. Soluta voluptatum culpa incidunt consequatur et ea consequuntur, nobis similique libero. Earum non eius consectetur.</p>
+                <a href="#">Red More</a>
+                </div>
+            </div>
+            <!-- End card one  -->
+             <!-- start card tow  -->
+                <div class="card">
+                    <div class="content">
+                    <h2>02</h2>
+                    <h3>card tow</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae sed quam consequatur saepe inventore quaerat. Soluta voluptatum culpa incidunt consequatur et ea consequuntur, nobis similique libero. Earum non eius consectetur.</p>
+                    <a href="#">Red More</a>
+                    </div>
+                </div>
+            <!-- End card tow  -->
+            <!-- start card three  -->
+            <div class="card">
+                <div class="content">
+                <h2>03</h2>
+                <h3>card three</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae sed quam consequatur saepe inventore quaerat. Soluta voluptatum culpa incidunt consequatur et ea consequuntur, nobis similique libero. Earum non eius consectetur.</p>
+                <a href="#">Red More</a>
+                </div>
+            </div>
+            <!-- End card three  -->
+    </div>
+    <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+    <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":1,
+	});
+    </script>
+</body>
+</html>
